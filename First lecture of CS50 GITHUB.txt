@@ -1,0 +1,755 @@
+C:\Users\sanga>    git clone https://github.com/Nehasam/python-1.git
+Cloning into 'python-1'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\sanga>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 0841-12B9
+
+ Directory of C:\Users\sanga
+
+04-05-2020  22:55    <DIR>          .
+04-05-2020  22:55    <DIR>          ..
+29-02-2020  08:50    <DIR>          .astropy
+02-05-2020  21:37               314 .bash_history
+02-02-2020  13:19    <DIR>          .conda
+29-02-2020  08:58    <DIR>          .config
+02-05-2020  19:51    <DIR>          .gconf
+02-05-2020  21:53    <DIR>          .gconfd
+29-02-2020  08:44    <DIR>          .idea
+06-04-2020  22:23    <DIR>          .idlerc
+15-04-2020  23:40    <DIR>          .ipynb_checkpoints
+30-01-2020  01:07    <DIR>          .ipython
+30-01-2020  22:36    <DIR>          .jupyter
+30-01-2020  01:11    <DIR>          .matplotlib
+22-02-2020  22:57    <DIR>          .PyCharmCE2019.3
+02-05-2020  21:52               218 .recently-used.xbel
+19-03-2020  14:06    <DIR>          3D Objects
+17-02-2020  00:12    <DIR>          Anaconda3
+19-03-2020  14:06    <DIR>          Contacts
+10-03-2020  16:51    <DIR>          css
+04-05-2020  19:28    <DIR>          Desktop
+28-03-2020  23:37    <DIR>          Django
+19-03-2020  14:06    <DIR>          Documents
+04-05-2020  19:28    <DIR>          Downloads
+02-04-2020  21:25    <DIR>          Dropbox
+01-05-2020  19:54    <DIR>          Edureka
+19-03-2020  14:06    <DIR>          Favorites
+06-04-2020  22:23             2,344 inh.py
+19-03-2020  14:06    <DIR>          Links
+19-03-2020  14:06    <DIR>          Music
+02-05-2020  20:02    <DIR>          my-django
+02-05-2020  19:07    <DIR>          myenv
+14-03-2020  10:36    <DIR>          Myproject
+02-05-2020  19:32    <DIR>          mysite
+28-03-2020  23:00    <DIR>          my_name
+02-05-2020  18:57    <DIR>          neha-django
+14-03-2020  09:06    <DIR>          new project
+02-05-2020  19:32    <DIR>          OneDrive
+19-03-2020  14:06    <DIR>          Pictures
+01-05-2020  12:21                 0 py
+29-02-2020  08:44    <DIR>          PycharmProjects
+04-05-2020  22:55    <DIR>          python-1
+19-03-2020  14:06    <DIR>          Saved Games
+19-03-2020  14:06    <DIR>          Searches
+06-04-2020  22:17             3,241 teacher.py
+26-03-2020  23:31    <DIR>          tkinter
+15-04-2020  23:44             2,345 Untitled.ipynb
+28-03-2020  23:08    <DIR>          venv
+19-03-2020  14:06    <DIR>          Videos
+12-03-2020  22:55    <DIR>          web development
+               6 File(s)          8,462 bytes
+              44 Dir(s)  613,158,014,976 bytes free
+
+C:\Users\sanga>   cd python-1/
+
+#INSTEAD OF TOUCH COMMAND THIS COMMAND IS USED TO CREATE A FILE.  
+C:\Users\sanga\python-1>   bar>.hello
+'bar' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\sanga\python-1>  dir
+ Volume in drive C is Windows
+ Volume Serial Number is 0841-12B9
+
+ Directory of C:\Users\sanga\python-1
+
+04-05-2020  23:15    <DIR>          .
+04-05-2020  23:15    <DIR>          ..
+04-05-2020  23:15                 0 .hello
+               1 File(s)              0 bytes
+               2 Dir(s)  612,918,808,576 bytes free
+
+#TO OPEN TEXT EDITOR
+C:\Users\sanga\python-1>  notepad
+
+C:\Users\sanga\python-1>  git add .hello.html
+
+C:\Users\sanga\python-1>  git commit -m "Added hello.html"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'sanga@LAPTOP-F1BM1UBR.(none)')
+
+C:\Users\sanga\python-1>  git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .hello.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .hello
+
+#TO RECOGNISE WHO MADE THE CHANGES 
+C:\Users\sanga\python-1>  git config --global user.email "satkurneha99@gmail.com
+
+C:\Users\sanga\python-1>  git config --global user.name "Nehasam"
+
+C:\Users\sanga\python-1>  git commit -m "Added hello.html"
+[master (root-commit) 710e5ea] Added hello.html
+ 1 file changed, 10 insertions(+)
+ create mode 100644 .hello.html
+
+C:\Users\sanga\python-1>  git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .hello.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .hello
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+#TO SEND DATA TO THE GIT WEBSITE
+C:\Users\sanga\python-1>  git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 294 bytes | 98.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Nehasam/python-1.git
+ * [new branch]      master -> master
+
+#TO GET DATA FROM THE GIT WEBSITE
+C:\Users\sanga\python-1>  git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 675 bytes | 3.00 KiB/s, done.
+From https://github.com/Nehasam/python-1
+   710e5ea..8d86186  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+        .hello.html
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 710e5ea..8d86186
+
+C:\Users\sanga\python-1> git pull
+error: Your local changes to the following files would be overwritten by merge:
+        .hello.html
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 710e5ea..8d86186
+
+C:\Users\sanga\python-1>  git add .hello.html
+
+C:\Users\sanga\python-1>  git commit -m "Added hello.html"
+[master efbdf88] Added hello.html
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+C:\Users\sanga\python-1>  git pull
+Auto-merging .hello.html
+Merge made by the 'recursive' strategy.
+ .hello.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\sanga\python-1>  git add .hello.html
+
+C:\Users\sanga\python-1>  git commit -m "Added hello third time"
+[master 4d2b9cd] Added hello third time
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\sanga\python-1>  git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 671 bytes | 3.00 KiB/s, done.
+From https://github.com/Nehasam/python-1
+   8d86186..432e65b  master     -> origin/master
+Auto-merging .hello.html
+CONFLICT (content): Merge conflict in .hello.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\sanga\python-1>  git add .hello.html
+
+C:\Users\sanga\python-1>  git commit -m "my changes"
+[master 8be7997] my changes
+
+C:\Users\sanga\python-1>  git pull
+Already up to date.
+
+#TO KNOW WHO AND WHAT CHANGES MADE TO THE FILE 
+C:\Users\sanga\python-1>  git log
+commit 8be79975384f89a6ef694cc470bf7857e5a93077 (HEAD -> master)
+Merge: 4d2b9cd 432e65b
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:15:41 2020 +0530
+
+    my changes
+
+commit 432e65b7b63ff13fc4a6bf87e73b70fd356b9922 (origin/master)
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Tue May 5 00:09:40 2020 +0530
+
+    Update .hello.html
+
+commit 4d2b9cdfe971271ae4b027c6e83adf573c959f6c
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[C
+/python-1
+com>
+ESC[C
+ESC[D
+/python-1
+com>
+ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+ ESC[D                                                                                                         
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html
+(END)
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:06:09 2020 +0530
+
+    Added hello third time
+
+commit 70ba53bb53da35a1b10b8812ad6b1202d9d34b1c
+Merge: efbdf88 8d86186
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:32 2020 +0530
+
+    Merge branch 'master' of https://github.com/Nehasam/python-1
+
+commit efbdf88127680cf723a9875c136130f636b0ca61
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Tue May 5 00:04:16 2020 +0530
+
+    Added hello.html
+
+commit 8d8618631ff1cf832f7d33e7a0955e72ee596bea
+Author: Nehasam <64800778+Nehasam@users.noreply.github.com>
+Date:   Mon May 4 23:57:02 2020 +0530
+
+    Update .hello.html
+
+commit 710e5ea8409cfaea2f105fb78c0e6998cb5ca704
+Author: Nehasam <satkurneha99@gmail.com>
+Date:   Mon May 4 23:47:00 2020 +0530
+
+    Added hello.html                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+#TO GET BACK THE PREVIOUS VERSION OF THE CODE WRITE THE COMMAND WITH COMMIT CODE!!!!!! 
+C:\Users\sanga\python-1>   git reset --hard 710e5ea8409c
+HEAD is now at 710e5ea Added hello.html
+
+#WHAT ALL TEH ACTIVITY DONE.
+C:\Users\sanga\python-1>  git reflog
+710e5ea (HEAD -> master) HEAD@{0}: reset: moving to 710e5ea8409c
+8be7997 HEAD@{1}: commit (merge): my changes
+4d2b9cd HEAD@{2}: commit: Added hello third time
+70ba53b HEAD@{3}: pull: Merge made by the 'recursive' strategy.
+efbdf88 HEAD@{4}: commit: Added hello.html
+710e5ea (HEAD -> master) HEAD@{5}: commit (initial): Added hello.html

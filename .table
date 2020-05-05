@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<title> My Table</title>
+<style>
+table{
+       border : 2px solid black;
+       border-collapse: collapse;
+width:50%;
+text-align:center;
+}
+th{
+border:3px solid black;
+
+background-color: lightgray;
+}
+
+td{
+border :3px solid black;
+background-color:darkgreen;
+color:white;
+}
+
+</style>
+</head>
+</html>
+<body>
+<h1> President</h1>
+<table>
+<tr>
+  <th> First name  </th>
+  <th> last nmae </th>
+  <th> Years in office </th>
+</tr>
+<tr>
+<td>Neha</td>
+<td>Satkur</td>
+<td>1999-2020</td>
+</tr>
+
+<tr>
+<td>Samarth</td>
+<td>Yenagimath</td>
+<td>1997-2020</td>
+</tr>
+<tr>
+<td>sanku</td>
+<td>satkur</td>
+<td>2000-2020</td>
+</tr>
+</table>
+</body>
+</html>
